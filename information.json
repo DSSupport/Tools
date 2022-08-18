@@ -1,0 +1,23 @@
+{
+  "location": [
+    {
+      "url" : "https://ipwho.is/",
+      "country": "\"country\":\"(.+?)\"",
+      "code": "\"country_code\":\"(.+?)\"",
+      "city" : "\"city\":\"(.+?)\""
+    },
+    {
+      "url" : "http://www.geoplugin.net/json.gp?ip=xx.xx.xx.xx",
+      "country": "\"geoplugin_countryName\":\"(.+?)\"",
+      "code": "\"geoplugin_countryCode\":\"(.+?)\"",
+      "city" : ""
+    }
+  ],
+  "device": [
+    {
+      "url" : "https://whatismyandroidversion.com/",
+      "version": "android_version='(.+?)';",
+      "model": "device_name='(.+?)';"
+    }
+  ]
+}
