@@ -15,7 +15,7 @@
   ],
   "device": [
     {
-      "url" : "https://whatismyandroidversion.com/",
+      "url" : "https://whatismyandroidversion.com/device-query.php?ref=",
       "version": "android_version='(.+?)';",
       "model": "device_name='(.+?)';"
     }
